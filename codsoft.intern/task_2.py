@@ -13,13 +13,13 @@ def generate_password():
         print("Invalid input! Please enter a number.")
         return
 
-    # Characters to use in password
+   
     characters = string.ascii_letters + string.digits + string.punctuation
 
-    # Generate random password
+    
     password = ''.join(random.choice(characters) for _ in range(length))
 
     print(f"Generated Password: {password}")
 
-# Run the function
+
 generate_password()
