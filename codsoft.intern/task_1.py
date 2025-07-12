@@ -6,7 +6,7 @@ def calculator():
     print("3. Multiplication (*)")
     print("4. Division (/)")
 
-    # Input two numbers
+   
     try:
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
@@ -14,10 +14,10 @@ def calculator():
         print("Invalid input. Please enter numeric values.")
         return
 
-    # Input operation
+    
     operation = input("Choose operation (+, -, *, /): ")
 
-    # Perform calculation
+    
     if operation == '+':
         result = num1 + num2
         print(f"Result: {num1} + {num2} = {result}")
@@ -36,5 +36,5 @@ def calculator():
     else:
         print("Invalid operation selected.")
 
-# Run the calculator
+
 calculator()
