@@ -50,5 +50,5 @@ def play_game():
             print("Thanks for playing!")
             break
 
-# ✅ Call the function to start the game
+
 play_game()
